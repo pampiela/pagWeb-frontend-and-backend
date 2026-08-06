@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!-- Indica que el documento está escrito en HTML5 -->
+
+<html lang="es">
+<!-- Inicio del documento HTML y se especifica que el idioma es español -->
+
+<head>
+
+    <!-- Configuración básica de la página -->
+    <meta charset="UTF-8" />
+    <!-- Permite mostrar correctamente caracteres como á, é, í, ó, ú y ñ -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Hace que la página se adapte a celulares, tablets y computadores -->
+
+    <title>Stakeholders</title>
+    <!-- Título que aparece en la pestaña del navegador -->
+
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Conecta el archivo CSS para dar diseño a la página -->
+
+    <link rel="icon" href="images.jpg" type="image/x-icon" />
+    <!-- Coloca un ícono en la pestaña del navegador -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Importa la librería jQuery para usar funciones de JavaScript si se necesitan -->
+
+</head>
+
+<body>
+
+<!-- ========================= -->
+<!-- ENCABEZADO DE LA PÁGINA -->
+<!-- ========================= -->
+
+<header>
+    Stakeholders
+</header>
+<!-- Muestra el título principal de la página -->
+
+
+<!-- ========================= -->
+<!-- MENÚ DE NAVEGACIÓN -->
+<!-- ========================= -->
+
+<nav class="navbar">
+    <a href="#definicion">Definición</a>
+    <a href="#clasificacion">Clasificación</a>
+    <a href="#rf">Funcional</a>
+    <a href="#rnf">No funcional</a>
+    <a href="#tabla-rfn">RFN</a>
+</nav>
+
+<!--
+Este menú permite desplazarse a cada sección de la página.
+Cada enlace utiliza un id para llevar al usuario directamente
+a la información correspondiente.
+-->
+
+
+<main>
+<!-- Contiene todo el contenido principal de la página -->
+
+
+<!-- ========================= -->
+<!-- SECCIÓN: DEFINICIÓN -->
+<!-- ========================= -->
+
+<section id="definicion" class="seccion">
+
+    <!-- Imagen relacionada con el tema -->
+    <img src="images.jpg" alt="Stakeholders" />
+
+    <!-- Título de la sección -->
+    <h2>Definición de Stakeholder</h2>
+
+    <!-- Explicación del concepto -->
+    <p>
+        Un stakeholder es cualquier individuo o entidad que tiene conexión con una
+        organización o iniciativa. Esta conexión se da porque participa en el
+        proyecto, se beneficia de él o puede verse afectado por las decisiones
+        tomadas durante su ejecución.
+    </p>
+
+</section>
+
+
+<!-- ========================= -->
+<!-- SECCIÓN: CLASIFICACIÓN -->
+<!-- ========================= -->
+
+<section id="clasificacion" class="seccion">
+
+    <h2>Clasificación de Stakeholders</h2>
+
+    <p>Se dividen en dos grupos:</p>
+
+    <!-- Lista con los tipos de stakeholders -->
+    <ul>
+        <li><b>Internos:</b> Empleados, gerencia, dueños y accionistas.</li>
+        <li><b>Externos:</b> Clientes, proveedores, gobierno y comunidad.</li>
+    </ul>
+
+</section>
+
+
+<!-- ========================= -->
+<!-- SECCIÓN: REQUERIMIENTO FUNCIONAL -->
+<!-- ========================= -->
+
+<section id="rf" class="seccion">
+
+    <h2>Requerimiento Funcional</h2>
+
+    <!-- Explica qué funciones debe realizar el sistema -->
+    <p>Describe las funciones que el sistema debe realizar.</p>
+
+    <!-- Ejemplo -->
+    <p>
+        <b>Ejemplo:</b> El sistema debe permitir recuperar la contraseña mediante correo electrónico.
+    </p>
+
+</section>
+
+
+<!-- ========================= -->
+<!-- SECCIÓN: REQUERIMIENTO NO FUNCIONAL -->
+<!-- ========================= -->
+
+<section id="rnf" class="seccion">
+
+    <h2>Requerimiento No Funcional</h2>
+
+    <!-- Explica las características de calidad del sistema -->
+    <p>Define la calidad y el rendimiento del sistema.</p>
+
+    <!-- Ejemplo -->
+    <p>
+        <b>Ejemplo:</b> El sistema debe responder en menos de un segundo.
+    </p>
+
+</section>
+
+
+<!-- ========================= -->
+<!-- TABLA DE REQUISITOS NO FUNCIONALES -->
+<!-- ========================= -->
+
+<section id="tabla-rfn" class="seccion">
+
+<h2>Requisitos No Funcionales (RFN)</h2>
+
+<!-- Inicio de la tabla -->
+<table>
+
+<!-- Encabezado de la tabla -->
+<thead>
+<tr>
+<th>RFN</th>
+<th>¿Qué es?</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+
+<!-- Cuerpo de la tabla -->
+<tbody>
+
+<tr class="par">
+<td><b>Rendimiento</b></td>
+<td>Velocidad del sistema.</td>
+<td>La aplicación carga en 2 segundos.</td>
+</tr>
+
+<tr>
+<td><b>Seguridad</b></td>
+<td>Protección de datos.</td>
+<td>Contraseñas encriptadas.</td>
+</tr>
+
+<tr class="par">
+<td><b>Usabilidad</b></td>
+<td>Facilidad de uso.</td>
+<td>Comprar en menos de 3 clics.</td>
+</tr>
+
+<tr>
+<td><b>Accesibilidad</b></td>
+<td>Uso para personas con discapacidad.</td>
+<td>Compatible con lectores de pantalla.</td>
+</tr>
+
+<tr class="par">
+<td><b>Disponibilidad</b></td>
+<td>Tiempo activo del sistema.</td>
+<td>99.9 % del tiempo.</td>
+</tr>
+
+<tr>
+<td><b>Escalabilidad</b></td>
+<td>Capacidad de crecer.</td>
+<td>Soportar miles de usuarios.</td>
+</tr>
+
+<tr class="par">
+<td><b>Mantenibilidad</b></td>
+<td>Facilidad para corregir errores.</td>
+<td>Resolver fallos en menos de 4 horas.</td>
+</tr>
+
+<tr>
+<td><b>Portabilidad</b></td>
+<td>Funciona en diferentes dispositivos.</td>
+<td>PC, celular y tablet.</td>
+</tr>
+
+<tr class="par">
+<td><b>Compatibilidad</b></td>
+<td>Integración con otros sistemas.</td>
+<td>Pasarela de pagos.</td>
+</tr>
+
+<tr>
+<td><b>Confiabilidad</b></td>
+<td>Trabaja sin fallos.</td>
+<td>No perder información.</td>
+</tr>
+
+<tr class="par">
+<td><b>Restricciones tecnológicas</b></td>
+<td>Reglas técnicas.</td>
+<td>Usar Node.js y React.</td>
+</tr>
+
+</tbody>
+
+</table>
+<!-- Fin de la tabla -->
+
+</section>
+
+</main>
+<!-- Fin del contenido principal -->
+
+
+<!-- ========================= -->
+<!-- INDICADOR DE RESPONSIVE -->
+<!-- ========================= -->
+
+<div class="indicador">
+
+    <!-- Estos textos cambian según el tamaño de la pantalla mediante CSS -->
+    <span class="celular">Celular 📱 (&lt;600px)</span>
+    <span class="tablet">Tablet 🔳 (&lt;900px)</span>
+    <span class="computador">Computador 💻 (&lt;1149px)</span>
+
+</div>
+
+
+</body>
+<!-- Fin del cuerpo de la página -->
+
+</html>
+<!-- Fin del documento HTML -->
