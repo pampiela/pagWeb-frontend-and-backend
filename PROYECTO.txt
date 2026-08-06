@@ -1,0 +1,32 @@
+=========================================
+PROYECTO: Stakeholders y Requerimientos
+=========================================
+
+Autor:
+Daniela Tuso Triana
+
+Fecha:
+06 de agosto de 2026
+
+Descripción:
+Este proyecto fue realizado en clase utilizando HTML, CSS y JavaScript.
+Su objetivo es mostrar información sobre los stakeholders y los requerimientos de un proyecto de software mediante una página web con diseño organizado e interactivo.
+
+Archivos del proyecto:
+- index.html: Contiene la estructura de la página.
+- estuco.css: Contiene los estilos del sitio web.
+- script.js: Contiene la funcionalidad e interacción de la página.
+- README.txt: Información general del proyecto.
+
+Tecnologías utilizadas:
+- HTML5
+- CSS3
+- JavaScript
+
+Instrucciones de uso:
+1. Descargar o clonar el proyecto.
+2. Abrir el archivo index.html en cualquier navegador web.
+3. Explorar el contenido y las funciones de la página.
+
+Observaciones:
+Este proyecto fue desarrollado con fines académicos como actividad de clase.
